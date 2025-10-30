@@ -26,19 +26,23 @@
 ## 📊 GitHub Stats
 
 <p align="center">
+  
   <!-- Genel İstatistikler -->
   <img height="160" src="https://github-readme-stats.vercel.app/api?username=yaren0600&show_icons=true&theme=dracula&hide_border=false&hide_title=false&count_private=true" />
   
 
 
 <p align="center">
+  
   <!-- Top Languages -->
   <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yaren0600&layout=compact&theme=dracula&hide_border=false&langs_count=6" />
 </p>
 
 <p align="center">
+  
   <!-- Streak Stats -->
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=yaren0600&theme=dracula&hide_border=false" height="160" />
+
 
   <!-- Contribution Graph (Dark Theme) -->
   <img src="https://ghchart.rshah.org/yaren0600?bg=1E1E2F&color=FF6EC7&line=FFFFFF&point=FF9FF3" height="160" />
