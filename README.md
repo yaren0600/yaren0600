@@ -43,10 +43,14 @@
   <!-- Streak Stats -->
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=yaren0600&theme=dracula&hide_border=false" height="160" />
 
+</p>
+
+<p align="center">
+
 
   <!-- Contribution Graph (Dark Theme) -->
   <img src="https://ghchart.rshah.org/yaren0600?bg=1E1E2F&color=FF6EC7&line=FFFFFF&point=FF9FF3" height="160" />
-</p>
+  </p>
 
 
 
