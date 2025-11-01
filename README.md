@@ -20,7 +20,7 @@
 ## 💼 Projects in Progress
 - 📱 **Mobile Optical Form Reading App** (Kotlin + OpenCV + YOLO)  
 - 🧠 **Deep Learning & Image Processing Projects**  
-- 🌐 **Backend APIs with ASP.NET Core**  
+- 🌐 **Backend APIs with ASP.NET**  
 - 🎨 Exploring **UI/UX Design for Mobile Apps**  
 
 ## 📊 GitHub Stats
