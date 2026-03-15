@@ -9,7 +9,7 @@
 ## 🌸 About Me
 - 🎓 Computer Engineering graduate from **Konya Technical University**  
 - 💡 Passionate about **Mobile Development, Computer Vision & .NET Technologies**  
-- 🌱 Currently learning **ASP.NET Core, Kotlin & OpenCV**  
+- 🌱 Currently learning **ASP.NET, Kotlin & OpenCV**  
 - ✨ I enjoy creating **user-friendly apps** that solve real problems  
 
 ## ⚡ Tech Stack
