@@ -6,6 +6,9 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:ff9ff3,100:8e44ad&height=140&section=header&text=✨+Building+Apps+That+Make+Life+Easier+|+Always+Learning&fontSize=26&fontColor=fff&animation=fadeIn" />
 </p>
 
+<img width="517" height="614" alt="image" src="https://github.com/user-attachments/assets/97f600b6-1f06-480a-9da6-1a9eff94af2a" />
+
+
 ## 🌸 About Me
 - 🎓 Computer Engineering graduate from **Konya Technical University**  
 - 💡 Passionate about **Mobile Development, Computer Vision & .NET Technologies**  
