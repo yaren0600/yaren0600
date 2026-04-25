@@ -7,10 +7,11 @@
 </p>
 
 ## 🌸 About Me
-- 🎓 Computer Engineering graduate from **Konya Technical University**  
-- 💡 Passionate about **Mobile Development, Computer Vision & .NET Technologies**  
-- 🌱 Currently learning **ASP.NET, Kotlin & OpenCV**  
-- ✨ I enjoy creating **user-friendly apps** that solve real problems  
+- 🎓 MSc Student in Computer Engineering at Konya Technical University
+- 🎓 Computer Engineering graduate from Konya Technical University
+- 💡 Passionate about Data Science, Backend Development & .NET Technologies
+- 🌱 Currently working on ASP.NET, Kotlin, OpenCV and Large Scale Data Projects
+- ✨ I enjoy creating user-friendly apps and data-driven solutions that solve real problems
 
 ## ⚡ Tech Stack
 <p align="center">
