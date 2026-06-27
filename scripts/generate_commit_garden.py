@@ -1,4 +1,3 @@
-```python
 import os
 import json
 import urllib.request
@@ -425,4 +424,3 @@ with open("assets/commit-garden.svg", "w", encoding="utf-8") as file:
     file.write(svg.strip())
 
 print("Commit garden generated successfully.")
-```
