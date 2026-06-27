@@ -1,3 +1,4 @@
+```python
 import os
 import json
 import urllib.request
@@ -53,6 +54,9 @@ request = urllib.request.Request(
 with urllib.request.urlopen(request) as response:
     result = json.loads(response.read().decode("utf-8"))
 
+if "errors" in result:
+    raise RuntimeError(result["errors"])
+
 weeks = result["data"]["user"]["contributionsCollection"]["contributionCalendar"]["weeks"]
 
 CELL = 11
@@ -63,8 +67,11 @@ TOP = 98
 WIDTH = LEFT + len(weeks) * (CELL + GAP) + 55
 HEIGHT = 370
 
-months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
-          "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+months = [
+    "Jan", "Feb", "Mar", "Apr", "May", "Jun",
+    "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"
+]
+
 
 # Pastel contribution renkleri
 def contribution_color(count):
@@ -78,29 +85,89 @@ def contribution_color(count):
         return "#85b0c9"
     return "#b8e0d2"
 
-def draw_sparkle(x, y, color, size=5):
+
+def draw_sparkle(x, y, color, size=5, delay="0s"):
     return f"""
-  <line x1="{x}" y1="{y-size}" x2="{x}" y2="{y+size}" stroke="{color}" stroke-width="1.5" opacity="0.95"/>
-  <line x1="{x-size}" y1="{y}" x2="{x+size}" y2="{y}" stroke="{color}" stroke-width="1.5" opacity="0.95"/>
+  <g opacity="0.95">
+    <animateTransform attributeName="transform"
+                      type="scale"
+                      values="1;1.25;1"
+                      dur="2.4s"
+                      begin="{delay}"
+                      repeatCount="indefinite"/>
+    <line x1="{x}" y1="{y-size}" x2="{x}" y2="{y+size}" stroke="{color}" stroke-width="1.5"/>
+    <line x1="{x-size}" y1="{y}" x2="{x+size}" y2="{y}" stroke="{color}" stroke-width="1.5"/>
+  </g>
 """
 
-def draw_star(x, y, color):
+
+def draw_star(x, y, color, delay="0s"):
     return f"""
-  <circle cx="{x}" cy="{y}" r="1.6" fill="{color}" opacity="0.95"/>
-  <line x1="{x}" y1="{y-4}" x2="{x}" y2="{y+4}" stroke="{color}" stroke-width="1.2" opacity="0.85"/>
-  <line x1="{x-4}" y1="{y}" x2="{x+4}" y2="{y}" stroke="{color}" stroke-width="1.2" opacity="0.85"/>
+  <g transform="translate({x},{y})">
+    <animateTransform attributeName="transform"
+                      type="scale"
+                      values="1;1.35;1"
+                      dur="2.2s"
+                      begin="{delay}"
+                      repeatCount="indefinite"
+                      additive="sum"/>
+    <circle cx="0" cy="0" r="1.7" fill="{color}" opacity="0.95"/>
+    <line x1="0" y1="-5" x2="0" y2="5" stroke="{color}" stroke-width="1.2" opacity="0.9"/>
+    <line x1="-5" y1="0" x2="5" y2="0" stroke="{color}" stroke-width="1.2" opacity="0.9"/>
+  </g>
 """
 
-def draw_butterfly(x, y, scale=1.0, color="#f9a8d4"):
+
+def draw_butterfly(x, y, scale=1.0, color="#f9a8d4", delay="0s", duration="7s"):
+    body = "#2e2a4d"
+    wing2 = "#c084fc"
+
     return f"""
-  <ellipse cx="{x-4*scale}" cy="{y-2*scale}" rx="{4*scale}" ry="{3*scale}" fill="{color}" opacity="0.9"/>
-  <ellipse cx="{x+4*scale}" cy="{y-2*scale}" rx="{4*scale}" ry="{3*scale}" fill="{color}" opacity="0.9"/>
-  <ellipse cx="{x-3*scale}" cy="{y+2*scale}" rx="{3*scale}" ry="{2.4*scale}" fill="#c084fc" opacity="0.9"/>
-  <ellipse cx="{x+3*scale}" cy="{y+2*scale}" rx="{3*scale}" ry="{2.4*scale}" fill="#c084fc" opacity="0.9"/>
-  <line x1="{x}" y1="{y-5*scale}" x2="{x}" y2="{y+5*scale}" stroke="#2e2a4d" stroke-width="1.2"/>
-  <line x1="{x}" y1="{y-5*scale}" x2="{x-2.5*scale}" y2="{y-8*scale}" stroke="#2e2a4d" stroke-width="0.9"/>
-  <line x1="{x}" y1="{y-5*scale}" x2="{x+2.5*scale}" y2="{y-8*scale}" stroke="#2e2a4d" stroke-width="0.9"/>
+  <g>
+    <animateTransform attributeName="transform"
+                      type="translate"
+                      values="0,0; 8,-6; -6,4; 10,-8; 0,0"
+                      dur="{duration}"
+                      begin="{delay}"
+                      repeatCount="indefinite"/>
+
+    <!-- Sol kanat -->
+    <g transform="translate({x},{y})">
+      <g>
+        <animateTransform attributeName="transform"
+                          type="rotate"
+                          values="-10 0 0; 18 0 0; -10 0 0"
+                          dur="0.6s"
+                          begin="{delay}"
+                          repeatCount="indefinite"/>
+        <ellipse cx="-4" cy="-2" rx="{4*scale}" ry="{3*scale}" fill="{color}" opacity="0.92"/>
+        <ellipse cx="-3" cy="2" rx="{3*scale}" ry="{2.4*scale}" fill="{wing2}" opacity="0.9"/>
+      </g>
+    </g>
+
+    <!-- Sağ kanat -->
+    <g transform="translate({x},{y})">
+      <g>
+        <animateTransform attributeName="transform"
+                          type="rotate"
+                          values="10 0 0; -18 0 0; 10 0 0"
+                          dur="0.6s"
+                          begin="{delay}"
+                          repeatCount="indefinite"/>
+        <ellipse cx="4" cy="-2" rx="{4*scale}" ry="{3*scale}" fill="{color}" opacity="0.92"/>
+        <ellipse cx="3" cy="2" rx="{3*scale}" ry="{2.4*scale}" fill="{wing2}" opacity="0.9"/>
+      </g>
+    </g>
+
+    <!-- Gövde -->
+    <g transform="translate({x},{y})">
+      <line x1="0" y1="-5" x2="0" y2="5" stroke="{body}" stroke-width="1.2"/>
+      <line x1="0" y1="-5" x2="-2.5" y2="-8" stroke="{body}" stroke-width="0.9"/>
+      <line x1="0" y1="-5" x2="2.5" y2="-8" stroke="{body}" stroke-width="0.9"/>
+    </g>
+  </g>
 """
+
 
 def draw_grass_tuft(x, y, scale=1.0):
     return f"""
@@ -111,6 +178,7 @@ def draw_grass_tuft(x, y, scale=1.0):
   <path d="M {x} {y} Q {x+6*scale} {y-9*scale} {x+8*scale} {y-2}"
         stroke="#4ade80" stroke-width="1.3" fill="none"/>
 """
+
 
 def draw_flower(x, base_y, level, style, petal_color):
     stem = "#86efac"
@@ -133,8 +201,7 @@ def draw_flower(x, base_y, level, style, petal_color):
   <path d="M {x-7} {base_y-32} Q {x} {base_y-43} {x+7} {base_y-32} L {x+4} {base_y-24} Q {x} {base_y-28} {x-4} {base_y-24} Z"
         fill="{petal_color}"/>
 """
-        else:
-            return f"""
+        return f"""
   <line x1="{x}" y1="{base_y}" x2="{x}" y2="{base_y-30}" stroke="{stem}" stroke-width="2.2"/>
   <ellipse cx="{x-5}" cy="{base_y-14}" rx="5" ry="2.4" fill="{leaf}"/>
   <ellipse cx="{x+5}" cy="{base_y-20}" rx="5" ry="2.4" fill="{leaf}"/>
@@ -160,7 +227,8 @@ def draw_flower(x, base_y, level, style, petal_color):
   <circle cx="{x-6}" cy="{base_y-47}" r="4.4" fill="{petal_color}"/>
   <circle cx="{x+6}" cy="{base_y-47}" r="4.4" fill="{petal_color}"/>
 """
-    elif style == "blossom":
+
+    if style == "blossom":
         return f"""
   <line x1="{x}" y1="{base_y}" x2="{x}" y2="{base_y-45}" stroke="{stem}" stroke-width="3"/>
   <ellipse cx="{x-8}" cy="{base_y-18}" rx="7" ry="3.4" fill="{leaf}"/>
@@ -173,14 +241,15 @@ def draw_flower(x, base_y, level, style, petal_color):
   <circle cx="{x-6}" cy="{base_y-58}" r="4.7" fill="{petal_color}"/>
   <circle cx="{x+6}" cy="{base_y-58}" r="4.7" fill="{petal_color}"/>
 """
-    else:
-        return f"""
+
+    return f"""
   <line x1="{x}" y1="{base_y}" x2="{x}" y2="{base_y-44}" stroke="{stem}" stroke-width="3"/>
   <ellipse cx="{x-8}" cy="{base_y-18}" rx="7" ry="3.4" fill="{leaf}"/>
   <ellipse cx="{x+8}" cy="{base_y-27}" rx="7" ry="3.4" fill="{leaf}"/>
   <path d="M {x-11} {base_y-49} Q {x} {base_y-66} {x+11} {base_y-49} L {x+7} {base_y-37} Q {x} {base_y-43} {x-7} {base_y-37} Z"
         fill="{petal_color}"/>
 """
+
 
 # Ay etiketlerini daha sade göstermek için 2 ayda bir
 month_starts = []
@@ -259,15 +328,15 @@ svg = f"""
 """
 
 # Üst ve alt dekorlar
-svg += draw_sparkle(30, 38, "#f9a8d4", 5)
-svg += draw_sparkle(WIDTH - 30, 42, "#c084fc", 5)
-svg += draw_star(55, HEIGHT - 42, "#fde68a")
-svg += draw_star(WIDTH - 58, HEIGHT - 45, "#f9a8d4")
-svg += draw_star(WIDTH - 85, 72, "#c4b5fd")
+svg += draw_sparkle(30, 38, "#f9a8d4", 5, delay="0s")
+svg += draw_sparkle(WIDTH - 30, 42, "#c084fc", 5, delay="0.7s")
+svg += draw_star(55, HEIGHT - 42, "#fde68a", delay="0.2s")
+svg += draw_star(WIDTH - 58, HEIGHT - 45, "#f9a8d4", delay="1s")
+svg += draw_star(WIDTH - 85, 72, "#c4b5fd", delay="1.6s")
 
-# Minik kelebekler
-svg += draw_butterfly(78, 72, 0.9, "#f9a8d4")
-svg += draw_butterfly(WIDTH - 92, 86, 0.8, "#f472b6")
+# Uçan minik kelebekler
+svg += draw_butterfly(78, 72, 0.9, "#f9a8d4", delay="0s", duration="7s")
+svg += draw_butterfly(WIDTH - 92, 86, 0.8, "#f472b6", delay="1.5s", duration="6s")
 
 # Aylar
 for month, x in display_months:
@@ -336,10 +405,11 @@ for week_index, week in enumerate(weeks):
 
     svg += draw_flower(x, GROUND_Y, level, style, color)
 
-# Alt dekor
-svg += draw_butterfly(WIDTH / 2 + 140, HEIGHT - 58, 0.7, "#d8b4fe")
-svg += draw_sparkle(WIDTH / 2 - 170, HEIGHT - 44, "#f9a8d4", 4)
-svg += draw_sparkle(WIDTH / 2 + 175, HEIGHT - 40, "#fde68a", 4)
+# Alt dekor: bir kelebek daha, biraz daha yavaş süzülüyor
+svg += draw_butterfly(WIDTH / 2 + 140, HEIGHT - 58, 0.7, "#d8b4fe", delay="0.8s", duration="8s")
+svg += draw_butterfly(WIDTH / 2 - 180, HEIGHT - 70, 0.6, "#f5b0ff", delay="2.2s", duration="7.5s")
+svg += draw_sparkle(WIDTH / 2 - 170, HEIGHT - 44, "#f9a8d4", 4, delay="0.4s")
+svg += draw_sparkle(WIDTH / 2 + 175, HEIGHT - 40, "#fde68a", 4, delay="1.2s")
 
 svg += f"""
   <text x="{WIDTH/2}" y="{HEIGHT-28}" text-anchor="middle"
@@ -355,3 +425,4 @@ with open("assets/commit-garden.svg", "w", encoding="utf-8") as file:
     file.write(svg.strip())
 
 print("Commit garden generated successfully.")
+```
