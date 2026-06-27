@@ -46,12 +46,15 @@
 
 </p>
 
+## 🌷 Commit Garden
+
 <p align="center">
+  <img src="assets/commit-garden.svg" width="900" alt="Commit Garden" />
+</p>
 
-
-  <!-- Contribution Graph (Dark Theme) -->
-  <img src="https://ghchart.rshah.org/yaren0600?bg=1E1E2F&color=FF6EC7&line=FFFFFF&point=FF9FF3" height="160" />
-  </p>
+<p align="center">
+  <i>🌱 Growing through every commit — one small step, one new flower.</i>
+</p>
 
 
 
