@@ -227,15 +227,10 @@
 
   <rect x="52" y="98" width="11" height="11" rx="3.2"
         fill="#1a1d2e" opacity="0.95">
-    <title>2025-07-03: 0 contribution(s)</title>
-  </rect>
-
-  <rect x="52" y="113" width="11" height="11" rx="3.2"
-        fill="#1a1d2e" opacity="0.95">
     <title>2025-07-04: 0 contribution(s)</title>
   </rect>
 
-  <rect x="52" y="128" width="11" height="11" rx="3.2"
+  <rect x="52" y="113" width="11" height="11" rx="3.2"
         fill="#1a1d2e" opacity="0.95">
     <title>2025-07-05: 0 contribution(s)</title>
   </rect>
@@ -2052,7 +2047,12 @@
 
   <rect x="832" y="173" width="11" height="11" rx="3.2"
         fill="#5f7ea3" opacity="0.95">
-    <title>2026-07-03: 3 contribution(s)</title>
+    <title>2026-07-03: 4 contribution(s)</title>
+  </rect>
+
+  <rect x="832" y="188" width="11" height="11" rx="3.2"
+        fill="#3b4d63" opacity="0.95">
+    <title>2026-07-04: 2 contribution(s)</title>
   </rect>
 
   <rect x="40" y="259" width="812" height="7"
