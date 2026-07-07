@@ -227,35 +227,30 @@
 
   <rect x="52" y="98" width="11" height="11" rx="3.2"
         fill="#1a1d2e" opacity="0.95">
-    <title>2025-07-06: 0 contribution(s)</title>
+    <title>2025-07-07: 0 contribution(s)</title>
   </rect>
 
   <rect x="52" y="113" width="11" height="11" rx="3.2"
         fill="#1a1d2e" opacity="0.95">
-    <title>2025-07-07: 0 contribution(s)</title>
+    <title>2025-07-08: 0 contribution(s)</title>
   </rect>
 
   <rect x="52" y="128" width="11" height="11" rx="3.2"
         fill="#1a1d2e" opacity="0.95">
-    <title>2025-07-08: 0 contribution(s)</title>
+    <title>2025-07-09: 0 contribution(s)</title>
   </rect>
 
   <rect x="52" y="143" width="11" height="11" rx="3.2"
         fill="#1a1d2e" opacity="0.95">
-    <title>2025-07-09: 0 contribution(s)</title>
+    <title>2025-07-10: 0 contribution(s)</title>
   </rect>
 
   <rect x="52" y="158" width="11" height="11" rx="3.2"
         fill="#1a1d2e" opacity="0.95">
-    <title>2025-07-10: 0 contribution(s)</title>
-  </rect>
-
-  <rect x="52" y="173" width="11" height="11" rx="3.2"
-        fill="#1a1d2e" opacity="0.95">
     <title>2025-07-11: 0 contribution(s)</title>
   </rect>
 
-  <rect x="52" y="188" width="11" height="11" rx="3.2"
+  <rect x="52" y="173" width="11" height="11" rx="3.2"
         fill="#1a1d2e" opacity="0.95">
     <title>2025-07-12: 0 contribution(s)</title>
   </rect>
@@ -2052,7 +2047,12 @@
 
   <rect x="832" y="113" width="11" height="11" rx="3.2"
         fill="#5f7ea3" opacity="0.95">
-    <title>2026-07-06: 3 contribution(s)</title>
+    <title>2026-07-06: 4 contribution(s)</title>
+  </rect>
+
+  <rect x="832" y="128" width="11" height="11" rx="3.2"
+        fill="#5f7ea3" opacity="0.95">
+    <title>2026-07-07: 3 contribution(s)</title>
   </rect>
 
   <rect x="40" y="259" width="812" height="7"
@@ -2415,14 +2415,16 @@
   <circle cx="816.5" cy="201" r="4.7" fill="#f472b6"/>
   <circle cx="828.5" cy="201" r="4.7" fill="#f472b6"/>
 
-  <line x1="837.5" y1="259" x2="837.5" y2="229" stroke="#86efac" stroke-width="2.2"/>
-  <ellipse cx="832.5" cy="245" rx="5" ry="2.4" fill="#6ee7b7"/>
-  <ellipse cx="842.5" cy="239" rx="5" ry="2.4" fill="#6ee7b7"/>
-  <circle cx="837.5" cy="225" r="3.7" fill="#fde68a"/>
-  <circle cx="832.5" cy="225" r="3.7" fill="#d8b4fe"/>
-  <circle cx="842.5" cy="225" r="3.7" fill="#d8b4fe"/>
-  <circle cx="837.5" cy="220" r="3.7" fill="#d8b4fe"/>
-  <circle cx="837.5" cy="230" r="3.7" fill="#d8b4fe"/>
+  <line x1="837.5" y1="259" x2="837.5" y2="214" stroke="#86efac" stroke-width="3"/>
+  <ellipse cx="829.5" cy="241" rx="7" ry="3.4" fill="#6ee7b7"/>
+  <ellipse cx="845.5" cy="232" rx="7" ry="3.4" fill="#6ee7b7"/>
+  <circle cx="837.5" cy="207" r="5" fill="#fde68a"/>
+  <circle cx="829.5" cy="207" r="5.7" fill="#d8b4fe"/>
+  <circle cx="845.5" cy="207" r="5.7" fill="#d8b4fe"/>
+  <circle cx="837.5" cy="199" r="5.7" fill="#d8b4fe"/>
+  <circle cx="837.5" cy="215" r="5.7" fill="#d8b4fe"/>
+  <circle cx="831.5" cy="201" r="4.7" fill="#d8b4fe"/>
+  <circle cx="843.5" cy="201" r="4.7" fill="#d8b4fe"/>
 
   <g>
     <animateTransform attributeName="transform"
