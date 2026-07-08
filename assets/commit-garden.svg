@@ -204,53 +204,45 @@
     </g>
   </g>
 
-  <text x="52" y="84" fill="#e9d5ff"
-        font-family="monospace" font-size="11" opacity="0.95">Jul</text>
+  <text x="97" y="84" fill="#e9d5ff"
+        font-family="monospace" font-size="11" opacity="0.95">Aug</text>
 
-  <text x="172" y="84" fill="#e9d5ff"
-        font-family="monospace" font-size="11" opacity="0.95">Sep</text>
+  <text x="232" y="84" fill="#e9d5ff"
+        font-family="monospace" font-size="11" opacity="0.95">Oct</text>
 
-  <text x="292" y="84" fill="#e9d5ff"
-        font-family="monospace" font-size="11" opacity="0.95">Nov</text>
+  <text x="367" y="84" fill="#e9d5ff"
+        font-family="monospace" font-size="11" opacity="0.95">Dec</text>
 
-  <text x="427" y="84" fill="#e9d5ff"
-        font-family="monospace" font-size="11" opacity="0.95">Jan</text>
+  <text x="502" y="84" fill="#e9d5ff"
+        font-family="monospace" font-size="11" opacity="0.95">Feb</text>
 
-  <text x="562" y="84" fill="#e9d5ff"
-        font-family="monospace" font-size="11" opacity="0.95">Mar</text>
+  <text x="622" y="84" fill="#e9d5ff"
+        font-family="monospace" font-size="11" opacity="0.95">Apr</text>
 
-  <text x="682" y="84" fill="#e9d5ff"
-        font-family="monospace" font-size="11" opacity="0.95">May</text>
-
-  <text x="817" y="84" fill="#e9d5ff"
-        font-family="monospace" font-size="11" opacity="0.95">Jul</text>
+  <text x="757" y="84" fill="#e9d5ff"
+        font-family="monospace" font-size="11" opacity="0.95">Jun</text>
 
   <rect x="52" y="98" width="11" height="11" rx="3.2"
-        fill="#1a1d2e" opacity="0.95">
-    <title>2025-07-07: 0 contribution(s)</title>
-  </rect>
-
-  <rect x="52" y="113" width="11" height="11" rx="3.2"
         fill="#1a1d2e" opacity="0.95">
     <title>2025-07-08: 0 contribution(s)</title>
   </rect>
 
-  <rect x="52" y="128" width="11" height="11" rx="3.2"
+  <rect x="52" y="113" width="11" height="11" rx="3.2"
         fill="#1a1d2e" opacity="0.95">
     <title>2025-07-09: 0 contribution(s)</title>
   </rect>
 
-  <rect x="52" y="143" width="11" height="11" rx="3.2"
+  <rect x="52" y="128" width="11" height="11" rx="3.2"
         fill="#1a1d2e" opacity="0.95">
     <title>2025-07-10: 0 contribution(s)</title>
   </rect>
 
-  <rect x="52" y="158" width="11" height="11" rx="3.2"
+  <rect x="52" y="143" width="11" height="11" rx="3.2"
         fill="#1a1d2e" opacity="0.95">
     <title>2025-07-11: 0 contribution(s)</title>
   </rect>
 
-  <rect x="52" y="173" width="11" height="11" rx="3.2"
+  <rect x="52" y="158" width="11" height="11" rx="3.2"
         fill="#1a1d2e" opacity="0.95">
     <title>2025-07-12: 0 contribution(s)</title>
   </rect>
@@ -2052,7 +2044,12 @@
 
   <rect x="832" y="128" width="11" height="11" rx="3.2"
         fill="#5f7ea3" opacity="0.95">
-    <title>2026-07-07: 3 contribution(s)</title>
+    <title>2026-07-07: 4 contribution(s)</title>
+  </rect>
+
+  <rect x="832" y="143" width="11" height="11" rx="3.2"
+        fill="#5f7ea3" opacity="0.95">
+    <title>2026-07-08: 4 contribution(s)</title>
   </rect>
 
   <rect x="40" y="259" width="812" height="7"
