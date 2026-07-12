@@ -2043,8 +2043,8 @@
   </rect>
 
   <rect x="832" y="98" width="11" height="11" rx="3.2"
-        fill="#3b4d63" opacity="0.95">
-    <title>2026-07-12: 2 contribution(s)</title>
+        fill="#5f7ea3" opacity="0.95">
+    <title>2026-07-12: 3 contribution(s)</title>
   </rect>
 
   <rect x="40" y="259" width="812" height="7"
@@ -2423,9 +2423,14 @@
   <circle cx="816.5" cy="201" r="4.7" fill="#f472b6"/>
   <circle cx="828.5" cy="201" r="4.7" fill="#f472b6"/>
 
-  <line x1="837.5" y1="259" x2="837.5" y2="241" stroke="#86efac" stroke-width="2"/>
-  <ellipse cx="832.5" cy="249" rx="5" ry="2.4" fill="#6ee7b7"/>
-  <ellipse cx="842.5" cy="245" rx="5" ry="2.4" fill="#6ee7b7"/>
+  <line x1="837.5" y1="259" x2="837.5" y2="229" stroke="#86efac" stroke-width="2.2"/>
+  <ellipse cx="832.5" cy="245" rx="5" ry="2.4" fill="#6ee7b7"/>
+  <ellipse cx="842.5" cy="239" rx="5" ry="2.4" fill="#6ee7b7"/>
+  <circle cx="837.5" cy="225" r="3.7" fill="#fde68a"/>
+  <circle cx="832.5" cy="225" r="3.7" fill="#d8b4fe"/>
+  <circle cx="842.5" cy="225" r="3.7" fill="#d8b4fe"/>
+  <circle cx="837.5" cy="220" r="3.7" fill="#d8b4fe"/>
+  <circle cx="837.5" cy="230" r="3.7" fill="#d8b4fe"/>
 
   <g>
     <animateTransform attributeName="transform"
