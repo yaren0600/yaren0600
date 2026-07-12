@@ -1,4 +1,3 @@
-```html
 <h1 align="center">
   <img
     src="https://readme-typing-svg.herokuapp.com?font=Raleway&weight=600&size=31&duration=3000&pause=700&color=FF6EC7&center=true&vCenter=true&width=700&lines=Hello+World!+👋;✨+I'm+Begüm+Yaren+ÖZTÜRK+✨;Computer+Engineer+💻;Backend+%26+Data+Enthusiast+🌸;Welcome+to+my+GitHub!+🦋"
@@ -236,4 +235,4 @@
     alt="Footer banner"
   />
 </p>
-```
+
