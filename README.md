@@ -47,7 +47,8 @@
   />
 </p>
 <br>
-  
+
+<p align="center">  
   <!-- Streak Stats -->
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=yaren0600&theme=dracula&hide_border=false" height="160" />
 
