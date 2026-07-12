@@ -1,123 +1,110 @@
+
+<!-- Header -->
+
 <h1 align="center">
   <img
-    src="https://readme-typing-svg.herokuapp.com?font=Raleway&weight=600&size=31&duration=3000&pause=700&color=FF6EC7&center=true&vCenter=true&width=700&lines=Hello+World!+👋;✨+I'm+Begüm+Yaren+ÖZTÜRK+✨;Computer+Engineer+💻;Backend+%26+Data+Enthusiast+🌸;Welcome+to+my+GitHub!+🦋"
+    src="https://readme-typing-svg.herokuapp.com?font=Raleway&weight=600&size=30&duration=3000&pause=800&color=E66AB2&center=true&vCenter=true&width=680&lines=Hello%2C+I'm+Begüm+Yaren+👋;Computer+Engineer+💻;Backend%2C+Data+%26+Image+Processing+✨"
     alt="Typing introduction"
   />
 </h1>
 
 <p align="center">
   <img
-    src="https://capsule-render.vercel.app/api?type=waving&color=0:ff9ff3,50:c084fc,100:8e44ad&height=150&section=header&text=Building%20Solutions%20%7C%20Learning%20Every%20Day&fontSize=25&fontColor=ffffff&fontAlignY=35&animation=fadeIn"
+    src="https://capsule-render.vercel.app/api?type=soft&color=0:ffd6ec,50:d8b4fe,100:a78bfa&height=120&section=header&text=Turning%20Ideas%20Into%20Useful%20Applications&fontSize=23&fontColor=ffffff&fontAlignY=50"
     width="100%"
-    alt="Header banner"
+    alt="Header"
   />
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=yaren0600&label=Profile%20Views&color=ff69b4&style=for-the-badge" alt="Profile views" />
-  <img src="https://img.shields.io/github/followers/yaren0600?label=Followers&style=for-the-badge&color=c084fc" alt="GitHub followers" />
+  <i>Learning, building and improving — one project at a time. 🌱</i>
 </p>
 
 <br>
 
-<h2 align="center">🌸 About Me 🌸</h2>
+<!-- About Me -->
+
+<h2 align="center">🌸 A Little About Me</h2>
 
 <p align="center">
-  Computer Engineering graduate and MSc student who enjoys transforming ideas
-  into useful, user-friendly and data-driven applications.
+  I am a Computer Engineering graduate and MSc student at
+  Konya Technical University.
 </p>
 
-<div align="center">
-
-🎓 MSc Student in Computer Engineering at Konya Technical University  
-💻 Computer Engineering Graduate from Konya Technical University  
-🌐 Interested in Backend Development, Data Analysis and Image Processing  
-🧠 Currently developing projects with ASP.NET Core, Python, Kotlin and OpenCV  
-✨ I enjoy building applications that solve real-world problems  
-🌱 Always learning, improving and exploring new technologies  
-
-</div>
-
-<br>
-
-<h2 align="center">⚡ Tech Stack ⚡</h2>
-
-<h3 align="center">Languages</h3>
-
 <p align="center">
-  <img
-    src="https://skillicons.dev/icons?i=cs,python,kotlin,js,html,css&theme=light"
-    alt="Programming languages"
-  />
+  I enjoy developing practical applications that combine
+  <strong>backend development, data analysis and image processing.</strong>
+  My main focus is building clear, useful and user-friendly solutions
+  for real-world problems.
 </p>
 
-<h3 align="center">Backend, Mobile & Data</h3>
-
 <p align="center">
-  <img
-    src="https://skillicons.dev/icons?i=dotnet,opencv,sqlite,mysql,androidstudio&theme=light"
-    alt="Backend mobile and data technologies"
-  />
+  I currently work with <strong>ASP.NET Core, C#, Python, Kotlin, OpenCV and SQL</strong>,
+  while continuing to improve my knowledge of artificial intelligence,
+  software architecture and modern backend technologies.
 </p>
 
-<h3 align="center">Tools</h3>
-
 <p align="center">
-  <img
-    src="https://skillicons.dev/icons?i=git,github,vscode,visualstudio,postman&theme=light"
-    alt="Development tools"
-  />
+  💻 Backend Development &nbsp;•&nbsp;
+  📊 Data Analysis &nbsp;•&nbsp;
+  🧠 Image Processing &nbsp;•&nbsp;
+  🤖 AI Integration
 </p>
 
 <br>
 
-<h2 align="center">🦋 Featured Projects 🦋</h2>
+<!-- Currently -->
+
+<h2 align="center">🪄 Currently</h2>
+
+<p align="center">
+  🤖 Developing an AI-powered Interview Coach<br>
+  🌐 Improving my ASP.NET Core and API development skills<br>
+  📚 Continuing my MSc studies in Computer Engineering<br>
+  🌱 Learning something new with every project
+</p>
+
+<br>
+
+<!-- Tech Stack -->
+
+<h2 align="center">⚡ My Toolbox</h2>
+
+<p align="center">
+  <img
+    src="https://skillicons.dev/icons?i=cs,dotnet,python,kotlin,opencv,sqlite,git,github,postman,vscode,visualstudio,androidstudio&theme=light&perline=6"
+    alt="Technology stack"
+  />
+</p>
+
+<br>
+
+<!-- Projects -->
+
+<h2 align="center">🦋 Projects I'm Growing</h2>
 
 <table align="center">
   <tr>
-    <td width="50%" valign="top">
-      <h3 align="center">🤖 AI Interview Coach</h3>
-      <p align="center">
-        An AI-supported interview preparation platform that generates
-        interview questions, evaluates answers and provides personalized feedback.
+    <td align="center" width="50%" valign="top">
+      <h3>🤖 AI Interview Coach</h3>
+      <p>
+        A backend-focused interview preparation platform
+        that creates interview sessions, evaluates answers
+        and provides personalized feedback.
       </p>
-      <p align="center">
-        <strong>ASP.NET Core · C# · EF Core · JWT · Gemini API</strong>
+      <p>
+        <strong>ASP.NET Core · EF Core · JWT · Gemini</strong>
       </p>
     </td>
-
-    <td width="50%" valign="top">
-      <h3 align="center">📱 Optical Form Reader</h3>
-      <p align="center">
-        A mobile application that detects marked answers on optical forms
-        and automatically compares them with an answer key.
+    <td align="center" width="50%" valign="top">
+      <h3>📱 Optical Form Reader</h3>
+      <p>
+        An Android application that detects marked answers
+        from optical forms and compares them automatically
+        with an answer key.
       </p>
-      <p align="center">
+      <p>
         <strong>Kotlin · OpenCV · ML Kit · SQLite</strong>
-      </p>
-    </td>
-  </tr>
-
-  <tr>
-    <td width="50%" valign="top">
-      <h3 align="center">🩻 Medical Image Processing</h3>
-      <p align="center">
-        Image-processing experiments focused on segmentation,
-        masking and analysis of lung X-ray images.
-      </p>
-      <p align="center">
-        <strong>Python · OpenCV · NumPy · Image Processing</strong>
-      </p>
-    </td>
-
-    <td width="50%" valign="top">
-      <h3 align="center">📊 Data Analysis Projects</h3>
-      <p align="center">
-        Data cleaning, exploratory analysis and visualization projects
-        created to discover meaningful patterns in datasets.
-      </p>
-      <p align="center">
-        <strong>Python · Pandas · NumPy · Power BI · SQL</strong>
       </p>
     </td>
   </tr>
@@ -125,98 +112,64 @@
 
 <br>
 
-<h2 align="center">📊 My GitHub Journey 📊</h2>
+<!-- Streak -->
+
+<h2 align="center">🔥 My Coding Rhythm</h2>
 
 <p align="center">
   <img
-    src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=yaren0600&theme=dracula"
-    width="820"
-    alt="GitHub profile details"
+    src="https://github-readme-streak-stats.herokuapp.com/?user=yaren0600&hide_border=true&background=FFF8FC&stroke=E8B5D8&ring=B875D1&fire=F083B4&currStreakNum=75527C&sideNums=75527C&currStreakLabel=B875D1&sideLabels=B875D1&dates=A98BAB&border_radius=18"
+    height="170"
+    alt="GitHub streak"
   />
 </p>
 
 <p align="center">
-  <img
-    src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=yaren0600&theme=dracula"
-    height="180"
-    alt="Repositories per language"
-  />
-
-  <img
-    src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=yaren0600&theme=dracula&utcOffset=3"
-    height="180"
-    alt="Productive coding time"
-  />
+  <i>Consistency makes ideas bloom. ✨</i>
 </p>
 
 <br>
 
-<h2 align="center">🔥 Contribution Streak 🔥</h2>
+<!-- Commit Garden -->
 
-<p align="center">
-  <img
-    src="https://github-readme-streak-stats.herokuapp.com/?user=yaren0600&theme=dracula&hide_border=true&border_radius=18&ring=FF6EC7&fire=FF9FF3&currStreakLabel=FF9FF3"
-    height="175"
-    alt="GitHub contribution streak"
-  />
-</p>
-
-<p align="center">
-  <i>Consistency turns small steps into meaningful progress. ✨</i>
-</p>
-
-<br>
-
-<h2 align="center">🌷 Commit Garden 🌷</h2>
+<h2 align="center">🌷 Commit Garden</h2>
 
 <p align="center">
   <img
     src="assets/commit-garden.svg"
     width="900"
-    alt="Animated commit flower garden"
+    alt="Animated commit garden"
   />
 </p>
 
 <p align="center">
-  <i>🌱 Growing through every commit — one small step, one new flower.</i>
+  <i>Every commit plants a new flower. 🌱</i>
 </p>
 
 <br>
 
-<h2 align="center">🌙 Current Focus 🌙</h2>
+<!-- Contact -->
 
-<div align="center">
-
-🤖 Integrating real AI-powered answer evaluation into AI Interview Coach  
-🌐 Improving my ASP.NET Core backend development skills  
-📊 Strengthening my data analysis and SQL knowledge  
-🧠 Exploring machine learning and modern AI technologies  
-📚 Continuing my MSc studies in Computer Engineering  
-
-</div>
-
-<br>
-
-<h2 align="center">💌 Connect With Me 💌</h2>
+<h2 align="center">💌 Let's Connect</h2>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/begüm-yaren-öztürk00">
     <img
-      src="https://img.shields.io/badge/LinkedIn-c084fc?style=for-the-badge&logo=linkedin&logoColor=white"
+      src="https://img.shields.io/badge/LinkedIn-a276cc?style=for-the-badge&logo=linkedin&logoColor=white"
       alt="LinkedIn"
     />
   </a>
 
   <a href="mailto:begumozturk0600@gmail.com">
     <img
-      src="https://img.shields.io/badge/Email-ff69b4?style=for-the-badge&logo=gmail&logoColor=white"
+      src="https://img.shields.io/badge/Email-e979ae?style=for-the-badge&logo=gmail&logoColor=white"
       alt="Email"
     />
   </a>
 
   <a href="https://github.com/yaren0600">
     <img
-      src="https://img.shields.io/badge/GitHub-8e44ad?style=for-the-badge&logo=github&logoColor=white"
+      src="https://img.shields.io/badge/GitHub-7b5c8e?style=for-the-badge&logo=github&logoColor=white"
       alt="GitHub"
     />
   </a>
@@ -225,14 +178,13 @@
 <br>
 
 <p align="center">
-  <i>✨ Code, learn, improve and bloom. ✨</i>
+  <strong>Build with curiosity. Learn with patience. Grow with every commit. 🌸</strong>
 </p>
 
 <p align="center">
   <img
-    src="https://capsule-render.vercel.app/api?type=waving&color=0:ff66cc,50:c084fc,100:8e44ad&height=160&section=footer&animation=fadeIn"
+    src="https://capsule-render.vercel.app/api?type=waving&color=0:ffd6ec,50:d8b4fe,100:a78bfa&height=100&section=footer"
     width="100%"
-    alt="Footer banner"
+    alt="Footer"
   />
 </p>
-
