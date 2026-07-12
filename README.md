@@ -28,18 +28,24 @@
 
 <p align="center">
   
-  <!-- Genel İstatistikler -->
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=yaren0600&show_icons=true&theme=dracula&hide_border=false&hide_title=false&count_private=true" />
-  
-
+<!-- GitHub İstatistikleri -->
+<h2 align="center">🦋 GitHub Dünyam 🦋</h2>
 
 <p align="center">
-  
-  <!-- Top Languages -->
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yaren0600&layout=compact&theme=dracula&hide_border=false&langs_count=6" />
+  <img
+    height="175"
+    src="https://github-readme-stats.vercel.app/api?username=yaren0600&show_icons=true&theme=omni&hide_border=true&border_radius=18&count_private=true&include_all_commits=true&rank_icon=github"
+    alt="Yaren GitHub İstatistikleri"
+  />
 </p>
 
 <p align="center">
+  <img
+    height="175"
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=yaren0600&layout=compact&theme=omni&hide_border=true&border_radius=18&langs_count=8"
+    alt="En Çok Kullanılan Diller"
+  />
+</p>
   
   <!-- Streak Stats -->
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=yaren0600&theme=dracula&hide_border=false" height="160" />
