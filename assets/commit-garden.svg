@@ -223,26 +223,21 @@
         font-family="monospace" font-size="11" opacity="0.95">Jun</text>
 
   <rect x="52" y="98" width="11" height="11" rx="3.2"
-        fill="#3b4d63" opacity="0.95">
-    <title>2025-07-15: 1 contribution(s)</title>
-  </rect>
-
-  <rect x="52" y="113" width="11" height="11" rx="3.2"
         fill="#5f7ea3" opacity="0.95">
     <title>2025-07-16: 3 contribution(s)</title>
   </rect>
 
-  <rect x="52" y="128" width="11" height="11" rx="3.2"
+  <rect x="52" y="113" width="11" height="11" rx="3.2"
         fill="#3b4d63" opacity="0.95">
     <title>2025-07-17: 1 contribution(s)</title>
   </rect>
 
-  <rect x="52" y="143" width="11" height="11" rx="3.2"
+  <rect x="52" y="128" width="11" height="11" rx="3.2"
         fill="#1a1d2e" opacity="0.95">
     <title>2025-07-18: 0 contribution(s)</title>
   </rect>
 
-  <rect x="52" y="158" width="11" height="11" rx="3.2"
+  <rect x="52" y="143" width="11" height="11" rx="3.2"
         fill="#1a1d2e" opacity="0.95">
     <title>2025-07-19: 0 contribution(s)</title>
   </rect>
@@ -2049,7 +2044,12 @@
 
   <rect x="832" y="143" width="11" height="11" rx="3.2"
         fill="#b8e0d2" opacity="0.95">
-    <title>2026-07-15: 13 contribution(s)</title>
+    <title>2026-07-15: 14 contribution(s)</title>
+  </rect>
+
+  <rect x="832" y="158" width="11" height="11" rx="3.2"
+        fill="#85b0c9" opacity="0.95">
+    <title>2026-07-16: 8 contribution(s)</title>
   </rect>
 
   <rect x="40" y="259" width="812" height="7"
