@@ -24,7 +24,7 @@
 
 <!-- About Me -->
 
-<h2 align="center">🌸 A Little About Me</h2>
+<h2 align="center">🌸 A Little About Me </h2>
 
 <p align="center">
   I am a Computer Engineering graduate and MSc student at
